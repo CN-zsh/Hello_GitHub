@@ -23,4 +23,7 @@
     )
 
 4.编写项目文件上传
-    右键-->Git-->Commit Directory
+    右键-->Git-->Commit Directory-->
+    （勾选修改的文件，Commit Message 注释区)
+    -->Commit and Push
+    在修改后上传时，会有代码对比的部分进行查看

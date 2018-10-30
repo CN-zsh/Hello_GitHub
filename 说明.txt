@@ -1,0 +1,26 @@
+第一次使用GItHub，进行功能测试。
+工具：Pycharm
+1.下载Git工具，并完成安装。【系统不同，安装注意事项也是不同的】
+参考说明：https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+下载GIt地址：https://www.git-scm.com/download/win
+
+2.在Pycharm中设置
+    a.更改配置
+        File-->Setting-->Version Control-->Git
+        (Path to Git executanle-->[Git安装路径->cmd->git.exe])
+    b.登录账号
+        File-->Setting-->Version Control-->Github
+        (Auth Type:Password Host:github.com login:账号 Password:密码)
+        此时可以使用Text进行测试验证是否登陆场成功
+
+3.下载项目
+    File-->CloseProject-->在新建项目的首页-->Check out from Version Control
+    -->Git
+    (
+        Git Repository URL:项目在GitHub上额远程地址
+        Parent Directory:项目的保存路径
+           Directory Name:项目名称(自动填写)
+    )
+
+4.编写项目文件上传
+    右键-->Git-->Commit Directory
